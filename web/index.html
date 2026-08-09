@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knower AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <span class="app-title">Knower AI</span>
+    <select id="model-select" title="Model"></select>
+    <button id="key-button" class="key-button" title="Set your Gemini API key">API Key</button>
+    <button id="close-button" class="close-button" title="Close">✕</button>
+  </header>
+
+  <main id="chat" class="chat"></main>
+
+  <footer class="inputbar">
+    <input id="prompt-input" type="text" placeholder="Type a message..." autocomplete="off">
+    <button id="send-button">Send</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
